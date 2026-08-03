@@ -7,7 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AiserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AiserviceApplication.class, args);
+
+        System.out.println("GEMINI_URL = " + System.getenv("GEMINI_URL"));
+        System.out.println("GEMINI_KEY = " + System.getenv("GEMINI_KEY"));
+        SpringApplication.run(AiserviceApplication.class, args);
 	}
+
 
 }

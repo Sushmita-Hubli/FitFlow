@@ -153,7 +153,7 @@ return String.format("""
           "analysis":{
           "overall": "Overall analysis here",
           "pace": "Pace analysis here",
-          "heartRate": "Heart rate analysis here".
+          "heartRate": "Heart rate analysis here",
           "caloriesBurned": "Calories analysis here"
           },
           "improvements": [
